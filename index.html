@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Dog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+
+    <style>
+        .button-section {
+            text-align: center;
+            margin: 2rem;
+        }
+        .margin {
+            margin: 2rem;
+        }
+    </style>
+
+</head>
+<body>
+    <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+    <h1 class="navbar-item title is-centered"> Random Dog  </h1>
+  </div>
+</nav>
+ 
+<main class="container	">
+
+    <div class="notification is-primary statusMain margin">
+        <button class="delete deleteButton" ></button>
+        <strong class="status title"></strong>
+    </div>
+
+    <div class="button-section">
+        <button class="button is-dark is-large getDogs ">Get Random Dog</button>
+    </div>
+
+    <progress class="progress is-large is-info loading" max="100">60%</progress>
+
+    <div class="columns selector">
+    </div>
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
